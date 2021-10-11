@@ -35,6 +35,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_api_name: "areeya-github-actions-04"
+          heroku_api_name: "areeya-github-action-04"
           heroku_email: "61160132@go.buu.ac.th"
 
